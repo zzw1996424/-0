@@ -1,0 +1,46 @@
+<view class="my">
+  <view class="my_top">
+    <view class="backimg">
+      <image src='http://www.zhengzhiwei1.top/images/phone_04.png'></image>
+    </view>
+    <view class="userimg">
+       <image src='http://www.zhengzhiwei1.top/images/phone_04.png'></image>
+    </view>
+  </view>
+  <view class="my_content">
+    <view class="my_item">
+      <view class="item_list">
+        <image src='../../img/my_01.png'></image>
+         <view class="item_title">我的订单</view>
+      </view>
+     <view class="item_list">
+        <image src='../../img/my_02.png'></image>
+         <view class="item_title">我的优惠</view>
+      </view>
+      <view class="item_list">
+        <image src='../../img/my_03.png'></image>
+         <view class="item_title">芝麻信用</view>
+      </view>
+       <view class="item_list">
+        <image src='../../img/my_04.png'></image>
+         <view class="item_title">个人资料</view>
+      </view>
+     <view class="item_list">
+        <image src='../../img/my_05.png'></image>
+         <view class="item_title">租约管理</view>
+      </view>
+      <view class="item_list">
+        <image src='../../img/my_06.png'></image>
+        <contact-button type="default-light"  size="20" session-from="weapp" class="pos"></contact-button>
+         <view class="item_title">在线客服</view>  
+      </view>
+    </view>
+    <!--切换房东  -->
+      <view class="qhfd">
+        <view class="qhimg">
+          <image src="../../img/my_07.png"></image>
+          <view class="qhfd_title">切换房东</view>
+        </view>
+      </view>
+  </view>
+</view>

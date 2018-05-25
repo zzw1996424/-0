@@ -1,0 +1,10 @@
+<!--pages/hello/hello.wxml-->
+<view class="hello" style='background-image:url("http://www.zhengzhiwei1.top/images/back2.png");background-size:100% 100%;'>
+</view>
+  <view class="hello_content">
+    <text class="text1">Hello!</text>
+    <text class="text2">开始寻舍之旅吧！</text>
+    <view class="login" bindtap="btnlogin">登陆</view>
+    <view class="register">注册</view>
+  </view>
+

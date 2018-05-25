@@ -1,0 +1,57 @@
+<!--pages/message/message.wxml-->
+<view class="message">
+  <view class="message_head fh">
+    <view class="head_left float_left">消息</view>
+    <view class="head_right float_right">联系人+</view>
+  </view>
+  <view class="message_item">
+    <view class="message_list fh">
+      <view class="list_left float_left"> <image src='../../img/phone_17.png'></image></view>
+      <view class="list_right float_left fh">
+        <view class="ll float_left">平台消息</view>
+        <view class="lr float_right">昨天</view>
+        <view class="float_left lb">小主，五一假期来临，乡知送您一张优惠券...</view>
+      </view>
+    </view>
+    <view class="message_list fh">
+      <view class="list_left float_left"> <image src='../../img/phone_18.png'></image></view>
+      <view class="list_right float_left fh">
+        <view class="ll float_left">预订通知</view>
+        <view class="lr float_right">12.00</view>
+        <view class="float_left lb">您已成功预订湘园坊，稍后掌柜会与您联系！...</view>
+      </view>
+    </view>
+    <view class="message_list fh" style="padding-bottom:0">
+      <view class="list_left float_left"> <image src='../../img/phone_19.png'></image></view>
+      <view class="list_right float_left fh" style="border:none">
+        <view class="ll float_left">互动消息</view>
+        <view class="lr float_right">17/04/25</view>
+        <view class="float_left lb">驴友在路上回复了你的评论</view>
+      </view>
+    </view>
+    <view class="back"></view>
+    <view class="message_list fh">
+      <view class="list_left float_left"> <image src='../../img/phone_20.png'></image></view>
+      <view class="list_right float_left fh">
+        <view class="ll float_left">优质乡知订阅号</view>
+        <view class="lr float_right">12.00</view>
+        <view class="float_left lb">远方的家：感谢您的关注。</view>
+      </view>
+    </view>
+     <view class="message_list fh">
+      <view class="list_left float_left"> <image src='../../img/phone_05.png'></image></view>
+      <view class="list_right float_left fh">
+        <view class="ll float_left">七里乡</view>
+        <view class="lr float_right">12.00</view>
+        <view class="float_left lb">在的哦!</view>
+      </view>
+    </view>
+
+
+
+
+
+  </view>
+
+
+</view>

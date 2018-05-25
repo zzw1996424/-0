@@ -1,0 +1,68 @@
+<!--index.wxml-->
+<loading hidden="{{loadingHidden}}">正在加载...</loading>
+<view class='head_top' style='background-image:url("http://www.zhengzhiwei1.top/images/phone_04.png");background-size:100% 100%;'>
+ <!--折叠栏  -->
+  <view class='float_left head_right'>
+    <image src='../../img/phone_03.png'></image>
+  </view>
+  <!--扫一扫  -->
+  <view class='head_left float_right' bindtap="bindViewTap"><image src='../../img/phone_01.png'></image></view>
+  <!--搜索栏  -->
+  <view class='head_center float_left'>
+      <input placeholder='搜索栏' placeholder-class="psection"></input>
+      <view class='search'><image src='../../img/phone_02.png'></image></view>
+  </view>
+ 
+</view>
+<!--分类  -->
+<view class='fl fh'>
+  <view class='fl_list float_left'>
+      <image src='../../img/phone_05.png'></image>
+      <view class='fl_title'>特色民宿</view>
+  </view>
+  <view class='fl_list float_left'>
+      <image src='../../img/phone_06.png'></image>
+      <view class='fl_title'>我要合租</view>
+  </view>
+  <view class='fl_list float_left'>
+      <image src='../../img/phone_07.png'></image>
+      <view class='fl_title'>智能管家</view>
+  </view>
+</view>
+<!--附近房源  -->
+<view class='fj fh'>
+  <view class='fj_left float_left'>附近房源</view>
+  <view class='fj_right float_right'>换一批</view>
+</view>
+<view class='fj_content'>
+  <image src='../../img/phone_09.png'></image>
+  <view class='like'><image src='../../img/phone_10.png'></image></view>
+  <view class='money fh'>
+    <view class='money_left float_left'>￥280元/1天</view>
+    <view class='money_right float_right'>
+      <image src='../../img/phone_11.png'></image>
+      <image src='../../img/phone_11.png'></image>
+      <image src='../../img/phone_11.png'></image>
+      <image src='../../img/phone_12.png'></image>
+      <image src='../../img/phone_12.png'></image>
+    </view>
+  </view>
+</view>
+<!--推荐房源  -->
+<view class='fj fh'>
+  <view class='fj_left float_left'>推荐房源</view>
+</view>
+<view class='fj_content'>
+  <image src='http://www.zhengzhiwei1.top/images/phone_04.png'></image>
+  <view class='like'><image src='../../img/phone_10.png'></image></view>
+  <view class='money fh'>
+    <view class='money_left float_left'>￥280元/1天</view>
+    <view class='money_right float_right'>
+      <image src='../../img/phone_11.png'></image>
+      <image src='../../img/phone_11.png'></image>
+      <image src='../../img/phone_11.png'></image>
+      <image src='../../img/phone_12.png'></image>
+      <image src='../../img/phone_12.png'></image>
+    </view>
+  </view>
+</view>

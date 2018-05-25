@@ -1,0 +1,69 @@
+.login{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+.login_content{
+  z-index: 2;
+  width: 100%;
+}
+.login_content .loginimg{
+  width: 33.3333%;
+  height: 230rpx;
+  margin: 150rpx auto;
+}
+.login_form{
+  width: 500rpx;
+  margin: 0 auto;
+  color: #f7f1f1;
+  font-size: 30rpx;
+}
+.form_list{
+  margin-bottom: 100rpx;
+}
+.list_left{
+  width: 30rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+  position: relative;
+  top: 8rpx;
+}
+.list_right input{
+  width: 445rpx;
+  border-bottom: 1rpx solid #fff;
+   padding-left: 15rpx;
+  box-sizing: border-box;
+}
+.psection{
+  color: #fff;
+  font-weight: 600;
+}
+.psection{
+  font-weight: normal;
+  color: #f7f1f1;
+  font-size: 30rpx;
+}
+.list_left2{
+  width: 35rpx;
+  height: 45rpx;
+}
+.btn{
+  width: 410rpx;
+  height: 56rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 28rpx;
+  border: 4rpx solid #fff;
+  border-radius: 30rpx;
+  margin: 0 auto;
+  line-height: 56rpx;
+  font-weight: 600;
+}
+.zw{
+  margin: 40rpx 0;
+  font-size: 24rpx;
+  color: #f7f1f1;
+}

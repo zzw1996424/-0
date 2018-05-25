@@ -1,0 +1,27 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+   padding: 200rpx 0; 
+  box-sizing: border-box;
+} 
+.fh{
+  overflow: hidden;
+}
+.float_left{
+  float: left;
+}
+.float_right{
+  float: right;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.psection{
+  color: #FFF;
+  font-weight: 600;
+}

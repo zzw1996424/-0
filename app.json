@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/message/message",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/hello/hello",
+    "pages/login/login",
+    "pages/register/register"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乡知民宿",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#dbb763",
+    "borderStyle": "white",
+    "backgroundColor":"#fff",
+    "list": [
+      {
+        "selectedIconPath": "img/phone_13a.png",
+        "iconPath": "img/phone_13.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "img/phone_14a.png",
+        "iconPath": "img/phone_14.png",
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "selectedIconPath": "img/phone_15a.png",
+        "iconPath": "img/phone_15.png",
+        "pagePath": "pages/like/like",
+        "text": "心仪"
+      },
+      {
+        "selectedIconPath": "img/phone_16a.png",
+        "iconPath": "img/phone_16.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+  
+}

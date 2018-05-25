@@ -1,0 +1,39 @@
+<view class="login" style='background-image:url("http://www.zhengzhiwei1.top/images/back.png");background-size:100% 100%;'>
+  <view class="zhe"></view>
+  <view class="login_content">
+    <view class="loginimg">
+      <image src='../../img/logo.png'></image>
+    </view>
+    <view class="login_form">
+        <view class="form_list fh">
+          <view class="list_left float_left">
+            <image src='../../img/login_01.png'></image>
+          </view>
+          <view class="list_right float_left">
+            <input type="text" placeholder="手机号码" placeholder-class="psection"/>
+          </view>
+        </view>
+        <view class="form_list fh">
+          <view class="list_left list_left2 float_left">
+            <image src='../../img/login_02.png'></image>
+          </view>
+          <view class="list_right  float_left">
+            <input type="text" placeholder="密码" placeholder-class="psection"/>
+          </view>
+        </view>
+        <view class="btn">登陆</view>
+        <view class="zw">
+          <view class="zw_left float_left">注册</view>
+          <view class="zw_right float_right">忘记密码</view>
+        </view>
+
+
+    </view>
+
+
+
+
+  </view>
+
+
+</view>

@@ -1,0 +1,76 @@
+.my .my_top{
+  width: 100%;
+  height: 380rpx;
+  position: relative;
+}
+.backimg{
+  width: 100%;
+  height: 100%;
+  filter: blur(2px);  
+}
+.userimg{
+  width: 170rpx;
+  height: 170rpx;
+  position: fixed;
+  left: 50%;
+  margin-left: -85rpx;
+  top: 50rpx;
+  z-index: 111;
+}
+.userimg image{
+  border-radius: 50%;
+}
+.my_content{
+  margin: 0 30rpx;
+  position: relative;
+  top: -40rpx;
+  background: #f8edd2;
+  border-radius: 10rpx 10rpx 0 0;
+  padding-top: 80rpx;
+}
+.my_item{
+  overflow: hidden;
+}
+.item_list{
+  width: 33.33333%;
+  float: left;
+  text-align: center;
+  margin-bottom: 90rpx;
+  position: relative;
+}
+.item_list image{
+  width: 110rpx;
+  height: 110rpx;
+  margin: 0 auto;
+}
+.item_list .item_title{
+  font-size: 28rpx;
+  color: #bc8f30;
+}
+.pos{
+  position: absolute;
+  width: 100%;
+  height: 110rpx;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 111;
+
+}
+.qhfd{
+  text-align: center;
+ padding: 70rpx 0;
+}
+.qhfd image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+  display: inline-block;
+  position: relative;
+  top: 6rpx;
+}
+.qhfd_title{
+  font-size: 30rpx;
+  color: #dbb763;
+  display: inline-block;
+}
